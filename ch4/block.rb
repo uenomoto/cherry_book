@@ -72,4 +72,9 @@ puts areas.to_s
 
 puts '--------------------'
 
-# 番号指定パラメータ
+# ブロックの後ろに別のメソッドを続けて書く
+
+names = ['田中', '佐藤', '上野']
+
+san_names = names.map { |name| "#{name}さん"}.join('と')
+puts san_names

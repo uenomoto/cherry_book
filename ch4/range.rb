@@ -53,3 +53,9 @@ puts arr_num.to_s # [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 
 numbers = (1..10).to_a
 
 puts numbers.sum # 55
+
+# エンドレス範囲もできる！！(1..)こんな感じで書く
+
+puts numbers[2..].to_s # 3~10
+
+puts numbers[..4].to_s # 1~5
