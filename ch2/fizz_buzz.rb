@@ -1,4 +1,7 @@
+# require 'debug'
+
 def fizz_buzz(num)
+  # binding.break
   if num % 15 == 0
     'FizzBuzz'
   elsif num % 5 == 0
